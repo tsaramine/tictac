@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ball.ico" type="image/x-icon">
+    <title>X O Game</title>
+</head>
+<body>
+    <div class="about" id="about"><h3>message</h3></div>
+    <div class="say" id="say" style="display: none;">
+        <h1>hello <span>user</span></h1>
+        <form action="https://formspree.io/f/xovvbewo" method="post" >
+            <textarea required name="aboutgame" id="aboutgame" placeholder="say something to MOHAMED AMINE EL HADANI"></textarea>
+            <input type="submit" value="click to send">
+            <input type="button" value="skip" onclick="by()">
+        </form>
+    </div>
+    <div class="game">
+        <div class="titlegame" id="titlegame"><span>X O</span>game</div>
+        <div class="articles">
+            <div class="art" id="art1" onclick="artclick(this.id)"></div>
+            <div class="art" id="art2" onclick="artclick(this.id)"></div>
+            <div class="art" id="art3" onclick="artclick(this.id)"></div>
+
+            <div class="art" id="art4" onclick="artclick(this.id)"></div>
+            <div class="art" id="art5" onclick="artclick(this.id)"></div>
+            <div class="art" id="art6" onclick="artclick(this.id)"></div>
+
+            <div class="art" id="art7" onclick="artclick(this.id)"></div>
+            <div class="art" id="art8" onclick="artclick(this.id)"></div>
+            <div class="art" id="art9" onclick="artclick(this.id)"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
